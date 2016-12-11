@@ -46,7 +46,7 @@ public extension MenuViewCustomizable {
         return .standard(widthMode: .flexible, centerItem: false, scrollingMode: .pagingEnabled)
     }
     var focusMode: MenuFocusMode {
-        return .underline(height: 3, color: UIColor.blue, horizontalPadding: 0, verticalPadding: 0)
+        return .underline(height: 3, color: UIColor(red:0.18, green:0.86, blue:0.83, alpha:1.0), horizontalPadding: 0, verticalPadding: 0)
     }
     var dummyItemViewsSet: Int {
         return 3
